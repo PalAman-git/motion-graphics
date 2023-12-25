@@ -73,6 +73,11 @@
 		}
 
 		/* Air */
+		#media video{
+			object-fit: cover;
+			border-radius: 20px;
+			border:2px solid rgb(78, 6, 78);
+		}
 	</style>
 </head>
 <body>
@@ -99,7 +104,7 @@
 
 		<div id="media">
 			<!-- Air -->
-			<video src="./videos/video-1@c.mp4" width="640" height="320" loop muted autoplay></video>
+			<video src="./videos/video-1@c.mp4" width="640" height="320" loop muted controls poster="./images/video-poster.jpg">Your Browser doesn't support the video.</video>
 		</div>
 	</section>
 </body>
